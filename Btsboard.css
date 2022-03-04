@@ -1,130 +1,128 @@
 .fullscreen-bg__video {
-    position: fixed;
-    z-index: -1;
-    width: 100%;
-    height: auto;
-    top: 0px;
-    right: 0px;
-    left: 0px;
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  top: 0px;
+  right: 0px;
+  left: 0px;
 }
 
 .container {
-    display: flex;
+  display: flex;
 }
 
 .banner {
-    justify-content: center;
-    background-color: #fff;
-    background-color: rgba(184, 44, 212, 0.5);
-    border-radius: 10px;
-    padding: 10px 0px 10px 0px;
+  justify-content: center;
+  background-color: #fff;
+  background-color: rgba(184, 44, 212, 0.5);
+  border-radius: 10px;
+  padding: 10px 0px 10px 0px;
 }
 
 h3#banner {
-    font-family: 'Dancing Script', sans-serif;
-    font-size: 50px;
-    color: rgb(6, 5, 12);
-    text-align: center;
+  font-family: "Dancing Script", sans-serif;
+  font-size: 50px;
+  color: rgb(6, 5, 12);
+  text-align: center;
 }
 
 .card {
-    margin-top: 11px;
-    margin-left: 8px;
+  margin-top: 11px;
+  margin-left: 8px;
 }
 
 .name {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .btn {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: baseline;
-    background-size: contain;
-    border-radius: 10px;
-    margin: 100px 0px 0px 0px;
-    background-color: #fff;
-    background-color: rgba(120, 64, 131, 0.5);
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: baseline;
+  background-size: contain;
+  border-radius: 10px;
+  margin: 100px 0px 0px 0px;
+  background-color: #fff;
+  background-color: rgba(120, 64, 131, 0.5);
 }
 
 button {
-    font-size: 40px;
-    height: 160px;
-    width: 170px;
-    border-radius: 10px;
-    border: none;
+  font-size: 40px;
+  height: 160px;
+  width: 170px;
+  border-radius: 10px;
+  border: none;
 }
 
 button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 p {
-    font-size: 20px;
-    padding: 0px 30px 0px 0px;
-    text-align: center;
-    word-spacing: 0px;
+  font-size: 20px;
+  padding: 0px 30px 0px 0px;
+  text-align: center;
+  word-spacing: 0px;
 }
 
 .names {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 button#namjoon {
-    background-image: url("https://media1.giphy.com/media/loRx5xFXFrlS9HSrfJ/giphy.gif?cid=ecf05e471usp9mh8xk2ut68ocuwdukocar7hx85pagit557s&rid=giphy.gif&ct=g");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* position: absolute; */
+  background-image: url("./bts-gifs/rm.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* position: absolute; */
 }
 
 button#seokjin {
-    background-image: url("https://media4.giphy.com/media/JSusdH41SF1oe08C2D/giphy.gif?cid=ecf05e47jp96lqi5lwcls0cv34oi0pc4002maokeyi0nnr51&rid=giphy.gif&ct=g");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* position: absolute; */
+  background-image: url("./bts-gifs/jin.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* position: absolute; */
 }
 
 button#yoongi {
-    background-image: url("https://media0.giphy.com/media/kaHaY1BW4oEcqw4bHv/giphy.gif?cid=ecf05e4783b969kqycawbh5cbqnop1glnwotaa8j2p7qlh0l&rid=giphy.gif&ct=g");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* position: absolute; */
+  background-image: url("./bts-gifs/suga.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* position: absolute; */
 }
 
 button#hoseok {
-    background-image: url("https://media3.giphy.com/media/ZDFOWVriIDDZifpnXL/giphy.gif?cid=ecf05e472tk9zti0wj1rh2p1qw2idfwq8fuvcxio9hpc3q5v&rid=giphy.gif&ct=g");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* position: absolute; */
+  background-image: url("./bts-gifs/hope.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* position: absolute; */
 }
 
 button#jimin {
-    background-image: url("https://media3.giphy.com/media/fZ9D5FtbRw1q9RRXX0/giphy.gif?cid=ecf05e47vcxhzxd2qkcio45mp0hd8mott1v5frdhily1r66u&rid=giphy.gif&ct=g");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* position: absolute; */
+  background-image: url("./bts-gifs/jimin.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* position: absolute; */
 }
 
 button#taehyung {
-    background-image: url("https://media3.giphy.com/media/S52or8g42SdZEPbDRg/giphy.gif?cid=ecf05e47yxf6t9ozh7nz89oqnejy3pyaaqekj2aq96b2avu8&rid=giphy.gif&ct=g");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* position: absolute; */
+  background-image: url("./bts-gifs/v.jpg");
+  background-size: cover;
+  background-position: center;
+  /* position: absolute; */
 }
 
 button#jungkook {
-    background-image: url("https://media1.giphy.com/media/11us2q8v5Pqo8M/giphy.gif?cid=ecf05e474vwreteccxxjh7pzrpn3tk0n5fkexv7qmxrek41c&rid=giphy.gif&ct=g");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /* position: absolute; */
+  background-image: url("./bts-gifs/jk.gif");
+  background-size: cover;
+  background-position: center;
+  /* position: absolute; */
 }
